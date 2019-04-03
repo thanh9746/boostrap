@@ -1,0 +1,68 @@
+
+body {
+    min-height: 1000px;
+}
+/* Navigation */
+.navbar {
+    opacity: 0.8;
+    border-bottom: 3px solid var(--primary);
+}
+
+/* Header */
+.header {
+    background: url('../img/home.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 150px;
+    color: white;
+}
+.backdrop {
+    position: relative;
+}
+.backdrop::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* header desc */
+/* Đặt tên icon vì để sử dụng cho các mục khác */
+.icon {
+    font-size: 2rem;
+    color: var(--teal);
+}
+
+.header__form {
+    background:  var(--primary);
+    opacity: 0.8;
+}
+
+/* Define section */
+.section__header {
+    padding: 2rem 0;
+    color: white;
+}
+/* Explore */
+.bg--dark {
+    background: var(--dark);
+}
+.bg--primary {
+    background: var(--primary);
+}
+.color--white {
+    color: white;
+}
+.color--secondary {
+    color: var(--secondary);
+}
+
+.section__img > img {
+    max-width: 100%;
+    height: auto;
+}
